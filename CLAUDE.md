@@ -5,12 +5,17 @@ This project is a template for creating slide presentations using Slidev.
 ## Project Structure
 
 ```
-slidev-template/
+1-Introduction-to-Radiation-Oncology/
 ├── slides.md                    # Main slide file
 ├── package.json                 # Project configuration and scripts
+├── package-lock.json           # Package lock file
 ├── README.md                    # Project overview and execution instructions
 ├── how_to_use.md               # Detailed Slidev usage guide
+├── slidev_write.md             # Slidev basic functions reference
 ├── issue.md                    # Issues and improvement points
+├── .npmrc                      # NPM configuration
+├── .prettierrc                 # Prettier configuration
+├── .gitignore                  # Git ignore rules
 ├── pages/                       # Individual slide pages
 │   ├── who_am_i.md             # Self-introduction page
 │   ├── flowchart.md            # Flowchart page
@@ -19,11 +24,16 @@ slidev-template/
 │   └── Counter.vue             # Counter component
 ├── layouts/                     # Custom layouts
 │   └── global-bottom.vue       # Global bottom layout
-├── public/                      # Static files
-│   ├── images/                 # Image folder
-│   ├── LLM.jpg                 # LLM related image
-│   ├── my_name.jpg             # Profile image
-│   └── sample.jpg              # Sample image
+├── agents/                      # AI agent configurations
+│   ├── README.md               # Agent documentation
+│   ├── adaptive-content-structure.md
+│   ├── adaptive-lecture-designer.md
+│   ├── interactive-medical-presenter.md
+│   ├── meical-slidev-architect.md
+│   └── radiation-therapy-educator.md
+├── lesson_plan/                 # Lesson plan documents
+│   ├── 第1回授業の全体像.md       # Overall structure of the first lesson
+│   └── 本論部分の詳細.md         # Detailed content for main sections
 ├── previous_slides/             # Past slides storage
 │   ├── ai-coding-assistants-comparison.md
 │   ├── demo_slides.md
@@ -31,9 +41,12 @@ slidev-template/
 │   ├── dify-slides.md
 │   └── ja_demo_slides.md
 ├── format/                      # Slide format templates
-│   └── abstract_reading_slide.md  # Template for abstract reading slides
+│   ├── abstract_reading_slide.md  # Template for abstract reading slides
+│   └── template_sides.md       # General slide template
 ├── snippets/                    # Code snippets
 │   └── external.ts             # External TypeScript file
+├── .vscode/                     # VS Code settings
+│   └── settings.json           # Editor configuration
 ├── netlify.toml                # Netlify deployment settings
 └── vercel.json                 # Vercel deployment settings
 ```
@@ -120,4 +133,10 @@ npm run export     # Export slides to PDF
 
 # slidevの基本的な機能は以下を参考にしてください。
 - [slidevの基本機能](slidev_write.md)
+
+# スライド作成時の参考資料
+- スライドを作成する際は、`lesson_plan/`フォルダ内の.mdファイルを参照してください。
+- `lesson_plan/第1回授業の全体像.md`: 第1回授業の全体構成と流れ
+- `lesson_plan/本論部分の詳細.md`: 各セクションの詳細な内容とポイント
+- これらの資料に基づいてスライドの構成と内容を決定してください。
 
