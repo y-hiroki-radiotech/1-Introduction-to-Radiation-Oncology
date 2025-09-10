@@ -37,45 +37,8 @@ colorSchema: light
 
 ---
 hideInToc: true
+src: ./pages/who_am_i.md
 ---
-
-# 講師自己紹介
-
-***
-
-<div class="mt-8"></div>
-
-<div class="grid grid-cols-2 gap-10">
-<div class="text-left">
-<h3 class="text-xl mb-4 flex items-center gap-3">
-<mdi-account-circle class="text-blue-500" />
-経歴・専門分野
-</h3>
-
-<div class="space-y-4 text-lg">
-<div>• 大学卒業後、○○大学病院勤務</div>
-<div>• 放射線治療部門 ○年間従事</div>
-<div>• 専門：○○治療技術</div>
-<div>• やりがい：物理学や機械の知識が<br>
-　「がんを治す」という目標に直結</div>
-</div>
-</div>
-
-<div class="text-left">
-<h3 class="text-xl mb-4 flex items-center gap-3">
-<mdi-target class="text-green-500" />
-講義への想い
-</h3>
-
-<div class="space-y-4 text-lg">
-<div>• 知識の暗記ではなく理解重視</div>
-<div>• 「なぜ必要？」「どう使う？」を<br>
-　常に意識した説明</div>
-<div>• 放射線治療のダイナミックさと<br>
-　奥深さを伝えたい</div>
-</div>
-</div>
-</div>
 
 ---
 hideInToc: true
@@ -97,7 +60,7 @@ hideInToc: true
 <div class="grid grid-cols-2 gap-8 text-lg">
 <div class="bg-blue-50 p-6 rounded-lg">
 <h3 class="text-xl font-semibold mb-4 text-blue-700">
-<mdi-route class="inline mr-2" />
+<mdi-road class="inline mr-2" />
 これから始まる冒険
 </h3>
 <div class="space-y-2">
@@ -931,7 +894,7 @@ layout: section
 
 <div class="mt-6 text-center">
 <div class="text-lg bg-yellow-50 p-4 rounded">
-<mdi-precision-manufacturing class="inline mr-2 text-yellow-600" />
+<mdi-cog class="inline mr-2 text-yellow-600" />
 <strong>精密性への追求：</strong> ミリ単位の精度が治療成功の鍵を握る
 </div>
 </div>
