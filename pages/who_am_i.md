@@ -2,7 +2,7 @@
 hideInToc: true
 ---
 
-# Who am I?
+# Who am I? (自己紹介)
 
 ***
 <br>
